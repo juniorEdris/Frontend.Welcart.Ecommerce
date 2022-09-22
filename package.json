@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:css": "tailwind build styles/index.css -o styles/globals.css --watch"
+    "build:css": "tailwind build -i styles/index.css -o styles/globals.css --watch"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "@reduxjs/toolkit": "^1.8.5",
+    "bootstrap": "^5.2.1",
     "next": "12.3.1",
     "next-redux-wrapper": "^8.0.0",
     "react": "18.2.0",
