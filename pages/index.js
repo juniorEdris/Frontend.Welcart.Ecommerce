@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { useSelector } from "react-redux";
 import styles from "../styles/Home.module.css";
 
@@ -16,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Welcart</h1>
+        <h1 className="text-3xl font-bold underline">Welcome to Welcart</h1>
       </main>
     </div>
   );
