@@ -1,0 +1,10 @@
+.left span,
+.right span {
+  cursor: pointer;
+}
+
+.left span:not(:last-child)::after,
+.right span:not(:last-child)::after {
+  content: "|";
+  margin: 0 8px;
+}

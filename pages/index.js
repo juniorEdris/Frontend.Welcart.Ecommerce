@@ -19,12 +19,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout className="">
-        <TopLinks />
-        <Header />
-        <Hero />
-        <ProductCategory />
-      </Layout>
+      <div className={styles.header}>
+        <Layout>
+          <TopLinks />
+          <Header />
+        </Layout>
+      </div>
+      <div className={styles.main}>
+        <Layout className="">
+          <Hero />
+          <ProductCategory />
+        </Layout>
+      </div>
     </div>
   );
 }

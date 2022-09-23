@@ -1,0 +1,17 @@
+.search_bar {
+    position: relative;
+}
+
+.search_bar input[type='text'] {
+  padding: 8px !important;
+  color: var(--dark);
+  padding-left: 10px !important;
+}
+
+.search_icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: var(--dark);
+}
