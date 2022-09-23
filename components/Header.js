@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FiSearch, FiUser } from "react-icons/fi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsCartCheck } from "react-icons/bs";
-import SubPages from "./SubPages";
+import SubPage from "./SubPages";
 import styles from "../styles/Header.module.css";
 
 const Header = () => {
@@ -64,7 +64,7 @@ const Header = () => {
         </div>
       </div>
       {/* Sub pages starts here */}
-      <SubPages />
+      <SubPage />
     </>
   );
 };

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FiChevronDown } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const SubPages = () => {
+const SubPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4">
       <div className="hidden md:block">
@@ -72,4 +72,4 @@ const SubPages = () => {
   );
 };
 
-export default SubPages;
+export default SubPage;
