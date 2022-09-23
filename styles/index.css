@@ -7,21 +7,30 @@
   --light: #ffffff;
   --primary-bg: #f5f5f5;
   --primary-dark: #303030;
-  --danger-color: #EF262C;
+  --danger-color: #ef262c;
 }
 body {
   color: var(--light);
 }
-
-.primary-dark-font{
-    color: var(--primary-dark);
+.primary-dark-font {
+  color: var(--primary-dark);
 }
-.danger-font{
-    color: var(--primary-dark);
+.danger-font {
+  color: var(--danger-color);
 }
-.danger-bg{
-    background-color: var(--danger-color);
+.danger-bg {
+  background-color: var(--danger-color);
 }
-.light-bg{
+.light-bg {
   background-color: var(--light);
+}
+
+
+/* Start of primary classes */
+.header {
+  background-color: var(--dark);
+}
+
+.sub_category li:not(:last-child){
+  margin:0 8px;
 }
