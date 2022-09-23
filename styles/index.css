@@ -34,3 +34,7 @@ body {
 .sub_category li:not(:last-child){
   margin:0 8px;
 }
+
+.slick-dots{
+  bottom: 20px !important;
+}

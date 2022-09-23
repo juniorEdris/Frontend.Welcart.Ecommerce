@@ -2,6 +2,8 @@ import { Provider } from "react-redux";
 import PrimaryHeader from "../components/PrimaryHeader";
 import store from "../store";
 import "../styles/globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function MyApp({ Component, pageProps }) {
