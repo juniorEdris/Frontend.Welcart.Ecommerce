@@ -22,3 +22,6 @@ body {
 .danger-bg{
     background-color: var(--danger-color);
 }
+.light-bg{
+  background-color: var(--light);
+}
