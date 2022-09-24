@@ -24,8 +24,8 @@ const SliderBody = () => {
             <Image
               src={image?.img}
               alt="slider_image"
-              height="500"
-              width="500"
+              height="70%"
+              width="100%"
               layout="responsive"
             />
           </div>
