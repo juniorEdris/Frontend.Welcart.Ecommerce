@@ -3,9 +3,8 @@
 }
 
 .search_bar input[type='text'] {
-  padding: 8px !important;
+  padding: 8px 8px 8px 34px!important;;
   color: var(--dark);
-  padding-left: 10px !important;
 }
 
 .search_icon {

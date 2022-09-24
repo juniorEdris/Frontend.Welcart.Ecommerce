@@ -1,13 +1,13 @@
-# Frontend.E-Sell.Ecommerce.App
+# Frontend.Walcart.Ecommerce.App
 
 
 # Next.js App
 
-    > Includes React, Next, Bootstrap 5, Respopnsive Layout
+    > Includes React, Next, Tailwind CSS, Respopnsive Layout
 
 # Start the APP
 
-    > first clone the repo -  ----
+    > first clone the repo -  https://github.com/juniorEdris/Frontend.Welcart.Ecommerce
 
     > run npm/yarn install for install all the necessary dipendencies
     

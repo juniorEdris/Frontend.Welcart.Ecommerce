@@ -14,7 +14,7 @@ const SliderBody = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrow: false,
+    arrows: false,
   };
   return (
     <div>
@@ -26,6 +26,7 @@ const SliderBody = () => {
               alt="slider_image"
               height="500"
               width="500"
+              layout="responsive"
             />
           </div>
         ))}

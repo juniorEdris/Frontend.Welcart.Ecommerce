@@ -38,3 +38,7 @@ body {
 .slick-dots{
   bottom: 20px !important;
 }
+.slick-dots li.slick-active button:before{
+  color: var(--danger-color)!important;
+  opacity:1 !important;
+}

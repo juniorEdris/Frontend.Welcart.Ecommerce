@@ -22,7 +22,7 @@ const SubPage = () => {
         </div>
       </div>
       <div className="md:col-start-2 col-span-2 flex items-center justify-center">
-        <ul className="flex items-center justify-center sub_category text-sm">
+        <ul className="flex items-center justify-center sub_category text-sm mb-2 md:mb-0">
           <li className="flex items-center justify-center">
             <Link href="/">Exclusive Deals</Link>
             <span className="ml-3">
