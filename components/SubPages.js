@@ -7,7 +7,7 @@ const SubPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4">
       <div className="hidden md:block">
-        <div className="w-full danger-bg flex items-center justify-evenly h-full rounded-t-lg">
+        <div className="w-full danger-bg flex items-center justify-evenly h-full rounded-t-lg cursor-pointer">
           <div className="">
             <span className=" text-xl">
               <GiHamburgerMenu />
